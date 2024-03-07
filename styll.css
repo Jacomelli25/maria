@@ -1,5 +1,4 @@
 import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
-
 :root {
     --cor-de-fundo: #1E1E1E;
     --verde: #6FFF57;
@@ -8,7 +7,6 @@ import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&d
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
 }
-
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
@@ -22,25 +20,20 @@ body {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-
 }
-
 .titulo-princial{
     text-align:left;
     width:100%;
     font-size: 32px;
 }
-
 .titulo-principal spam{
     color: var(--verde);
 }
-
 .botao{
     font-family:'chakra petch', sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display:flex;
     justify-content: center
-
 }
 
